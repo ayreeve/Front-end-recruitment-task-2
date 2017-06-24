@@ -1,0 +1,82 @@
+/* GLOBAL */
+/* line 2, sass/style.sass */
+* {
+  box-sizing: border-box; }
+
+/* line 5, sass/style.sass */
+body {
+  padding: 50px;
+  background-color: #211d70; }
+
+/* mixins */
+/* ANIMATION ELEMENTS for:*/
+/* all */
+/* line 18, sass/style.sass */
+.svg_color_mask {
+  filter: brightness(0) invert(1); }
+
+/* beacons */
+/* line 22, sass/style.sass */
+.beacons {
+  max-width: 126px;
+  max-height: 96px;
+  transition: .5s; }
+
+/* dots */
+/* line 28, sass/style.sass */
+.dot {
+  max-width: 9px;
+  max-height: 9px;
+  background-size: cover; }
+
+/* mobile with icon*/
+/* line 34, sass/style.sass */
+.complete_mobile {
+  max-width: 76px;
+  max-height: 122px;
+  position: relative;
+  top: 0;
+  left: 0; }
+
+/* line 39, sass/style.sass */
+.mobile_pocket {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+/* line 42, sass/style.sass */
+.mobile_shoe {
+  max-width: 17px;
+  max-height: 16px;
+  position: absolute;
+  top: 23px;
+  left: 11px;
+  opacity: 0;
+  transition: .3s; }
+
+/* cloud with shoe */
+/* line 52, sass/style.sass */
+.complete_cloud {
+  max-width: 124px;
+  max-height: 80px;
+  position: relative;
+  top: 0;
+  left: 0; }
+
+/* line 57, sass/style.sass */
+.cloud {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+/* line 60, sass/style.sass */
+.cloud_shoe {
+  max-width: 47px;
+  max-height: 22px;
+  position: absolute;
+  bottom: 20px;
+  left: 38px;
+  opacity: 0;
+  transition: 1s; }
+
+/*# sourceMappingURL=style.css.map */

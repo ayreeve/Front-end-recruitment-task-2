@@ -1,0 +1,67 @@
+/* GLOBAL */
+*
+    box-sizing: border-box
+
+body
+    padding: 50px
+    background-color: #211d70
+    
+/* mixins */
+=position($position)
+  position: $position
+  top: 0
+  left: 0
+
+    
+/* ANIMATION ELEMENTS for:*/
+/* all */
+.svg_color_mask
+    filter: brightness(0) invert(1)
+         
+/* beacons */    
+.beacons
+    max-width: 126px
+    max-height: 96px
+    transition: .5s
+        
+/* dots */
+.dot
+    max-width: 9px
+    max-height: 9px
+    background-size: cover
+
+/* mobile with icon*/
+.complete_mobile
+    max-width: 76px
+    max-height: 122px
+    +position(relative)
+              
+.mobile_pocket
+    +position(relative)
+    
+.mobile_shoe    
+    max-width: 17px
+    max-height: 16px
+    position: absolute
+    top: 23px
+    left: 11px
+    opacity: 0
+    transition: .3s
+
+/* cloud with shoe */
+.complete_cloud
+    max-width: 124px
+    max-height: 80px
+    +position(relative)
+            
+.cloud
+    +position(relative)
+    
+.cloud_shoe
+    max-width: 47px
+    max-height: 22px
+    position: absolute
+    bottom: 20px
+    left: 38px
+    opacity: 0
+    transition: 1s
