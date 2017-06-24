@@ -40,95 +40,95 @@ p {
 
 /* mixins */
 /* GRID */
-/* line 43, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 42, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 [class*="col-"] {
   float: left;
-  min-height: 1px;
-  padding: 8px 8px 8px 0; }
+  min-height: 1px; }
 
-/* line 48, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 46, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .row:before,
 .row:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 54, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 52, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-1 {
   margin-left: 8.33%; }
 
-/* line 56, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 54, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-2 {
   margin-left: 16.66%; }
 
-/* line 58, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 56, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-3 {
   margin-left: 25%; }
 
-/* line 60, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 58, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-4 {
   margin-left: 33.33%; }
 
-/* line 62, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 60, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-5 {
   margin-left: 41.66%; }
 
-/* line 64, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 62, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-6 {
   margin-left: 50%; }
 
-/* line 66, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 64, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-7 {
   margin-left: 58.33%; }
 
-/* line 68, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 66, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-8 {
   margin-left: 66.66%; }
 
-/* line 70, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 68, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-9 {
   margin-left: 75%; }
 
-/* line 72, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 70, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-12 {
   margin-left: 83.33%; }
 
-/* line 74, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 72, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .col-offset-11 {
   margin-left: 91.66%; }
 
 /* LOGO */
-/* line 78, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 76, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .logo {
   position: absolute;
   top: 30px;
-  left: 60px;
+  left: 58px;
   cursor: pointer;
   transition: .8s; }
-  /* line 84, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 82, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .logo:hover {
     opacity: .7;
     transform: scale(1.1); }
 
 /* HEADER */
-/* line 89, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 87, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 header {
   margin: 0;
   padding: 0; }
 
-/* line 93, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 91, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .intro h1 {
-  margin-top: 135px;
+  margin-top: 125px;
   margin-bottom: 0; }
 
-/* line 97, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 95, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .intro p {
   padding: 25px; }
 
 /* ANIMATION ELEMENTS for:*/
 /* all */
-/* line 103, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
-figure {
+/* line 101, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+.figure {
+  padding: 0;
   margin: 0; }
 
 /* line 106, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
@@ -152,19 +152,20 @@ figure {
 /* mobile with icon*/
 /* line 122, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .complete_mobile {
-  max-width: 76px;
+  width: 76px;
   max-height: 122px;
+  display: inline-block;
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 127, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 128, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .mobile_pocket {
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 130, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 131, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .mobile_shoe {
   max-width: 17px;
   max-height: 16px;
@@ -175,21 +176,22 @@ figure {
   transition: .3s; }
 
 /* cloud with shoe */
-/* line 140, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 141, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .complete_cloud {
-  max-width: 124px;
+  width: 124px;
   max-height: 80px;
+  display: inline-block;
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 145, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 147, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .cloud {
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 148, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 150, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .cloud_shoe {
   max-width: 47px;
   max-height: 22px;
@@ -200,12 +202,12 @@ figure {
   transition: 1s; }
 
 /* DESCRIPTION */
-/* line 158, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 160, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .description p {
-  padding: 0 10px; }
+  padding: 0 25px; }
 
 /* FAQ */
-/* line 163, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+/* line 164, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
 .faq h1 {
   margin-top: 154px; }
 
@@ -251,40 +253,40 @@ figure {
 
 @media (max-width: 767px) {
   /* For tablets & mobiles: */
-  /* line 198, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 197, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-1 {
     width: 8.33%; }
-  /* line 200, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 199, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-2 {
     width: 16.66%; }
-  /* line 202, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 201, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-3 {
     width: 25%; }
-  /* line 204, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 203, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-4 {
     width: 33.33%; }
-  /* line 206, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 205, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-5 {
     width: 41.66%; }
-  /* line 208, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 207, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-6 {
     width: 50%; }
-  /* line 210, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 209, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-7 {
     width: 58.33%; }
-  /* line 212, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 211, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-8 {
     width: 66.66%; }
-  /* line 214, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 213, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-9 {
     width: 75%; }
-  /* line 216, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 215, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-10 {
     width: 83.33%; }
-  /* line 218, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 217, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-11 {
     width: 91.66%; }
-  /* line 220, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
+  /* line 219, F:/Moje teksty/programowanie/Moje projekty/29. Front-End recruitment task (Estimote) - 23.06.17/sass/style.sass */
   .col-s-12 {
     width: 100%; } }
 

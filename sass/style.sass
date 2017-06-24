@@ -39,12 +39,10 @@ p
   left: 0
 
 /* GRID */
-
 [class*="col-"] 
     float: left
     min-height: 1px
-    padding: 8px 8px 8px 0
-
+   
 .row:before,
 .row:after 
     content: ""
@@ -78,7 +76,7 @@ p
 .logo
     position: absolute
     top: 30px
-    left: 60px
+    left: 58px
     cursor: pointer
     transition: .8s
     &:hover
@@ -91,7 +89,7 @@ header
     padding: 0
     
 .intro h1
-    margin-top: 135px
+    margin-top: 125px
     margin-bottom: 0;
 
 .intro p
@@ -100,8 +98,10 @@ header
 /* ANIMATION ELEMENTS for:*/
 /* all */
 
-figure
+.figure
+    padding: 0
     margin: 0
+    
     
 .svg_color_mask
     filter: brightness(0) invert(1)
@@ -120,8 +120,9 @@ figure
 
 /* mobile with icon*/
 .complete_mobile
-    max-width: 76px
+    width: 76px
     max-height: 122px
+    display: inline-block
     +position(relative)
               
 .mobile_pocket
@@ -138,8 +139,9 @@ figure
 
 /* cloud with shoe */
 .complete_cloud
-    max-width: 124px
+    width: 124px
     max-height: 80px
+    display: inline-block
     +position(relative)
             
 .cloud
@@ -156,13 +158,11 @@ figure
 
 /* DESCRIPTION */    
 .description p
-    padding: 0 10px
+    padding: 0 25px
 
-    
 /* FAQ */    
 .faq h1
     margin-top: 154px
-    
     
 /* MEDIA QUERIES */
 @media (min-width: 768px)
@@ -192,7 +192,6 @@ figure
     .col-m-12
         width: 100%
         
-
 @media (max-width: 767px)
     /* For tablets & mobiles: */
     .col-s-1 
@@ -218,5 +217,4 @@ figure
     .col-s-11 
         width: 91.66%
     .col-s-12 
-        width: 100%
-    
+        width: 100%   
