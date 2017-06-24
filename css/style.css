@@ -3,12 +3,109 @@
   box-sizing: border-box; }
 
 body {
-  padding: 50px;
-  background-color: #211d70; }
+  margin: 0;
+  background-color: #211d70;
+  font-family: font122183, Arial, sans-serif;
+  color: #fff; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+
+section > .container {
+  margin: 10vh 0 auto;
+  text-align: center; }
+
+/* fonts */
+@font-face {
+  font-family: 'Brandon Text Medium';
+  src: url("../fonts/BrandonText-Medium.woff"); }
+
+h1 {
+  font-family: 'Brandon Text Medium', Arial;
+  font-size: 34px;
+  font-weight: lighter;
+  text-align: center; }
+
+p {
+  font-size: 18px;
+  margin: 0; }
 
 /* mixins */
+/* GRID */
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 8px 8px 8px 0; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33%; }
+
+.col-offset-5 {
+  margin-left: 41.66%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33%; }
+
+.col-offset-8 {
+  margin-left: 66.66%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-12 {
+  margin-left: 83.33%; }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+
+/* LOGO */
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  cursor: pointer;
+  transition: .8s; }
+  .logo:hover {
+    opacity: .7;
+    transform: scale(1.1); }
+
+/* HEADER */
+header {
+  margin: 0;
+  padding: 0; }
+
+.intro h1 {
+  margin-top: 135px;
+  margin-bottom: 0; }
+
+.intro p {
+  padding: 25px; }
+
 /* ANIMATION ELEMENTS for:*/
 /* all */
+figure {
+  margin: 0; }
+
 .svg_color_mask {
   filter: brightness(0) invert(1); }
 
@@ -67,5 +164,68 @@ body {
   left: 38px;
   opacity: 0;
   transition: 1s; }
+
+/* DESCRIPTION */
+.description p {
+  padding: 0 10px; }
+
+/* FAQ */
+.faq h1 {
+  margin-top: 154px; }
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+  /* For desktop: */
+  .col-m-1 {
+    width: 8.33%; }
+  .col-m-2 {
+    width: 16.66%; }
+  .col-m-3 {
+    width: 25%; }
+  .col-m-4 {
+    width: 33.33%; }
+  .col-m-5 {
+    width: 41.66%; }
+  .col-m-6 {
+    width: 50%; }
+  .col-m-7 {
+    width: 58.33%; }
+  .col-m-8 {
+    width: 66.66%; }
+  .col-m-9 {
+    width: 75%; }
+  .col-m-10 {
+    width: 83.33%; }
+  .col-m-11 {
+    width: 91.66%; }
+  .col-m-12 {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  /* For tablets & mobiles: */
+  .col-s-1 {
+    width: 8.33%; }
+  .col-s-2 {
+    width: 16.66%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33%; }
+  .col-s-5 {
+    width: 41.66%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33%; }
+  .col-s-8 {
+    width: 66.66%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33%; }
+  .col-s-11 {
+    width: 91.66%; }
+  .col-s-12 {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
