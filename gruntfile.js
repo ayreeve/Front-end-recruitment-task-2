@@ -27,6 +27,13 @@ module.exports = function (grunt) {
         jshint: {
             all: ['js/*.js']
         },
+        autoprefixer: {
+            dist: {
+                files: {
+                    'css/style.css': 'css/style.css'
+                }
+            }
+        },
 
         watch: {
             scripts: {
@@ -47,8 +54,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s)
-    grunt.registerTask('default', ['sass', 'browserSync', 'jshint', 'watch']);
+    grunt.registerTask('default', ['sass', 'browserSync', 'jshint', 'autoprefixer', 'watch']);
 };
