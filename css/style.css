@@ -8,14 +8,15 @@ body {
   font-family: 'Brandon Text Medium', Arial, sans-serif;
   color: #fff; }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto; }
+section {
+  width: 100%; }
 
 section > .container {
-  margin: 10vh 0 auto;
   text-align: center; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto; }
 
 /* fonts */
 @font-face {
@@ -24,8 +25,7 @@ section > .container {
 
 h1 {
   font-size: 34px;
-  font-weight: lighter;
-  text-align: center; }
+  font-weight: lighter; }
 
 h2 {
   font-size: 24px;
@@ -37,9 +37,6 @@ p {
   font-family: font122183, Arial, sans-serif;
   font-size: 18px;
   text-align: justify;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto; }
 
 /* mixins */
@@ -99,14 +96,9 @@ p {
   transition: .8s; }
   .logo:hover {
     opacity: .7;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
+    transform: scale(1.1); }
 
 /* HEADER */
-.col-m-12 {
-  margin: 0;
-  padding: 0; }
-
 .intro h1 {
   margin: 110px 0 0 0; }
 
@@ -114,19 +106,12 @@ p {
 /* all */
 figure {
   margin: 0 0 18px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: space-between;
+  align-items: center; }
 
 .svg_color_mask {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1); }
+  filter: brightness(0) invert(1); }
 
 /* beacons */
 .beacons {
@@ -138,7 +123,7 @@ figure {
 .dot {
   max-width: 9px;
   max-height: 9px;
-  margin: -20px;
+  margin: -35px;
   background-size: cover; }
 
 /* mobile with icon*/
@@ -192,34 +177,38 @@ figure {
   margin-top: 144px; }
 
 .faq_line {
-  margin-top: 23px;
+  margin-top: 22px;
   padding: 0;
   border-top: 1px solid #fff; }
 
 .faq h2 {
-  padding: 0 0 20px 40px;
+  padding-bottom: 22px;
   border-bottom: 1px solid #fff; }
 
 .faq ul {
-  padding-right: 40px;
+  padding: 0 20px 0 0;
   list-style: none;
   font-size: 20px;
+  text-align: left;
   color: rgba(255, 255, 255, 0.3); }
 
 /* TABLE */
+.table {
+  text-align: center; }
+
 .table h1 {
   margin-top: 144px;
   margin-bottom: 58px; }
 
 table {
   margin-bottom: 120px;
+  display: inline-block;
   border-collapse: collapse; }
 
 td {
   padding: 12px 42px;
   border: 1px solid;
-  font-size: 18px;
-  text-align: center; }
+  font-size: 18px; }
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
@@ -275,3 +264,5 @@ td {
     width: 91.66%; }
   .col-s-12 {
     width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
