@@ -124,30 +124,34 @@ p {
 /* HEADER */
 /* line 98, sass/style.sass */
 .intro h1 {
-  margin: 110px 0 0 0; }
+  margin: 153px 0 2px 0; }
+
+/* line 101, sass/style.sass */
+.intro p {
+  margin-bottom: 74px; }
 
 /* ANIMATION ELEMENTS for:*/
 /* all */
-/* line 104, sass/style.sass */
+/* line 107, sass/style.sass */
 figure {
-  margin: 0 0 18px 0;
+  margin: 0 0 13px 0;
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
-/* line 110, sass/style.sass */
+/* line 113, sass/style.sass */
 .svg_color_mask {
   filter: brightness(0) invert(1); }
 
 /* beacons */
-/* line 114, sass/style.sass */
+/* line 117, sass/style.sass */
 .beacons {
   max-width: 126px;
   max-height: 96px;
   transition: .5s; }
 
 /* dots */
-/* line 120, sass/style.sass */
+/* line 123, sass/style.sass */
 .dot {
   max-width: 9px;
   max-height: 9px;
@@ -155,7 +159,7 @@ figure {
   background-size: cover; }
 
 /* mobile with icon*/
-/* line 127, sass/style.sass */
+/* line 130, sass/style.sass */
 .complete_mobile {
   width: 76px;
   max-height: 122px;
@@ -164,13 +168,13 @@ figure {
   top: 0;
   left: 0; }
 
-/* line 133, sass/style.sass */
+/* line 136, sass/style.sass */
 .mobile_pocket {
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 136, sass/style.sass */
+/* line 139, sass/style.sass */
 .mobile_shoe {
   max-width: 17px;
   max-height: 16px;
@@ -181,7 +185,7 @@ figure {
   transition: .3s; }
 
 /* cloud with shoe */
-/* line 146, sass/style.sass */
+/* line 149, sass/style.sass */
 .complete_cloud {
   width: 124px;
   max-height: 80px;
@@ -190,13 +194,13 @@ figure {
   top: 0;
   left: 0; }
 
-/* line 152, sass/style.sass */
+/* line 155, sass/style.sass */
 .cloud {
   position: relative;
   top: 0;
   left: 0; }
 
-/* line 155, sass/style.sass */
+/* line 158, sass/style.sass */
 .cloud_shoe {
   max-width: 47px;
   max-height: 22px;
@@ -207,127 +211,128 @@ figure {
   transition: 1s; }
 
 /* FAQ */
-/* line 165, sass/style.sass */
-.faq h1 {
-  margin-top: 144px; }
-
 /* line 168, sass/style.sass */
+.faq h1 {
+  margin-top: 149px; }
+
+/* line 171, sass/style.sass */
 .faq_line {
-  margin-top: 22px;
+  margin-top: 26px;
   padding: 0;
   border-top: 1px solid #fff; }
 
-/* line 173, sass/style.sass */
+/* line 176, sass/style.sass */
 .faq h2 {
-  padding-bottom: 22px;
+  margin-top: 16px;
+  padding-bottom: 18px;
   border-bottom: 1px solid #fff; }
 
-/* line 177, sass/style.sass */
+/* line 181, sass/style.sass */
 .faq ul {
-  padding: 0 20px 0 0;
+  padding: 16px 20px 0 0;
   list-style: none;
   font-size: 20px;
   text-align: left;
   color: rgba(255, 255, 255, 0.3); }
 
 /* TABLE */
-/* line 185, sass/style.sass */
+/* line 189, sass/style.sass */
 .table {
   text-align: center; }
 
-/* line 188, sass/style.sass */
+/* line 192, sass/style.sass */
 .table h1 {
   margin-top: 144px;
   margin-bottom: 58px; }
 
-/* line 192, sass/style.sass */
+/* line 196, sass/style.sass */
 table {
-  margin-bottom: 120px;
+  margin-bottom: 140px;
   display: inline-block;
   border-collapse: collapse; }
 
-/* line 197, sass/style.sass */
+/* line 201, sass/style.sass */
 td {
-  padding: 12px 42px;
+  padding: 9px 42px;
   border: 1px solid;
   font-size: 18px; }
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
   /* For desktop: */
-  /* line 205, sass/style.sass */
+  /* line 209, sass/style.sass */
   .col-m-1 {
     width: 8.33%; }
-  /* line 207, sass/style.sass */
+  /* line 211, sass/style.sass */
   .col-m-2 {
     width: 16.66%; }
-  /* line 209, sass/style.sass */
+  /* line 213, sass/style.sass */
   .col-m-3 {
     width: 25%; }
-  /* line 211, sass/style.sass */
+  /* line 215, sass/style.sass */
   .col-m-4 {
     width: 33.33%; }
-  /* line 213, sass/style.sass */
+  /* line 217, sass/style.sass */
   .col-m-5 {
     width: 41.66%; }
-  /* line 215, sass/style.sass */
+  /* line 219, sass/style.sass */
   .col-m-6 {
     width: 50%; }
-  /* line 217, sass/style.sass */
+  /* line 221, sass/style.sass */
   .col-m-7 {
     width: 58.33%; }
-  /* line 219, sass/style.sass */
+  /* line 223, sass/style.sass */
   .col-m-8 {
     width: 66.66%; }
-  /* line 221, sass/style.sass */
+  /* line 225, sass/style.sass */
   .col-m-9 {
     width: 75%; }
-  /* line 223, sass/style.sass */
+  /* line 227, sass/style.sass */
   .col-m-10 {
     width: 83.33%; }
-  /* line 225, sass/style.sass */
+  /* line 229, sass/style.sass */
   .col-m-11 {
     width: 91.66%; }
-  /* line 227, sass/style.sass */
+  /* line 231, sass/style.sass */
   .col-m-12 {
     width: 100%; } }
 
 @media (max-width: 767px) {
   /* For tablets & mobiles: */
-  /* line 232, sass/style.sass */
+  /* line 236, sass/style.sass */
   .col-s-1 {
     width: 8.33%; }
-  /* line 234, sass/style.sass */
+  /* line 238, sass/style.sass */
   .col-s-2 {
     width: 16.66%; }
-  /* line 236, sass/style.sass */
+  /* line 240, sass/style.sass */
   .col-s-3 {
     width: 25%; }
-  /* line 238, sass/style.sass */
+  /* line 242, sass/style.sass */
   .col-s-4 {
     width: 33.33%; }
-  /* line 240, sass/style.sass */
+  /* line 244, sass/style.sass */
   .col-s-5 {
     width: 41.66%; }
-  /* line 242, sass/style.sass */
+  /* line 246, sass/style.sass */
   .col-s-6 {
     width: 50%; }
-  /* line 244, sass/style.sass */
+  /* line 248, sass/style.sass */
   .col-s-7 {
     width: 58.33%; }
-  /* line 246, sass/style.sass */
+  /* line 250, sass/style.sass */
   .col-s-8 {
     width: 66.66%; }
-  /* line 248, sass/style.sass */
+  /* line 252, sass/style.sass */
   .col-s-9 {
     width: 75%; }
-  /* line 250, sass/style.sass */
+  /* line 254, sass/style.sass */
   .col-s-10 {
     width: 83.33%; }
-  /* line 252, sass/style.sass */
+  /* line 256, sass/style.sass */
   .col-s-11 {
     width: 91.66%; }
-  /* line 254, sass/style.sass */
+  /* line 258, sass/style.sass */
   .col-s-12 {
     width: 100%; } }
 
