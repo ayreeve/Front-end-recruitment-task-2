@@ -139,9 +139,6 @@ figure
     left: 38px
     opacity: 0
     transition: 1s
-
-.svg_replacement
-    display: none
     
 /* FAQ */    
 .faq h1
@@ -332,6 +329,18 @@ td
     .intro p
         padding: 0 12px 0 21px
         margin-bottom: 76px
+        
+    .description
+        display: flex
+        
+    .desktop_text
+        display: none
+    
+    .beacons
+        display: block
+        
+    .mobile_1_row
+        display: inline-block
              
     /* faq */    
     .faq h1
@@ -350,16 +359,17 @@ td
     .slick-arrow
         bottom: 20px
         right: 80px
+        background-color: transparent
+        border: none
            
     .slick-next,
     .slick-prev
-        width: 50px
+        width: 55px
         right: 100px
         top: 400px
-        transform: scale(1.5)
-        
+                
     .slick-prev
-        left: 100px
+        left: 80px
 
     /* table */    
     .table h1
