@@ -84,21 +84,21 @@ figure {
 
 /* beacons */
 .beacons {
-  max-width: 126px;
-  max-height: 96px;
+  width: 126px;
+  height: 96px;
   transition: .5s; }
 
 /* dots */
 .dot {
-  max-width: 9px;
-  max-height: 9px;
+  width: 9px;
+  height: 9px;
   margin: -35px;
   background-size: cover; }
 
 /* mobile with icon*/
 .complete_mobile {
   width: 76px;
-  max-height: 122px;
+  height: 122px;
   display: inline-block;
   position: relative;
   top: 0;
@@ -110,8 +110,8 @@ figure {
   left: 0; }
 
 .mobile_shoe {
-  max-width: 17px;
-  max-height: 16px;
+  width: 17px;
+  height: 16px;
   position: absolute;
   top: 23px;
   left: 11px;
@@ -121,7 +121,7 @@ figure {
 /* cloud with shoe */
 .complete_cloud {
   width: 124px;
-  max-height: 80px;
+  height: 80px;
   display: inline-block;
   position: relative;
   top: 0;
@@ -133,8 +133,8 @@ figure {
   left: 0; }
 
 .cloud_shoe {
-  max-width: 47px;
-  max-height: 22px;
+  width: 47px;
+  height: 22px;
   position: absolute;
   bottom: 20px;
   left: 38px;
@@ -288,13 +288,14 @@ td {
   .faq ul {
     text-align: center; } }
 
-@media (max-width: 640px) {
-  /* animations */
+@media (max-width: 640px) and (min-width: 321px) {
+  .intro h1 {
+    margin-bottom: 60px; }
+  .intro p {
+    margin: 0;
+    padding: 0 30px; }
   .animation {
-    display: none; }
-  figure {
-    width: 600px;
-    height: 150px; } }
+    display: none; } }
 
 @media (max-width: 480px) {
   /* global */
@@ -303,6 +304,8 @@ td {
   p {
     font-size: 16px;
     text-align: left; }
+  .description {
+    padding: 30px; }
   /*logo */
   .logo {
     top: 20px;
@@ -314,16 +317,8 @@ td {
     padding: 0 24px;
     margin-top: 123px; }
   .intro p {
-    padding: 0 12px 0 21px;
-    margin-bottom: 76px; }
-  .description {
-    display: flex; }
-  .desktop_text {
-    display: none; }
-  .beacons {
-    display: block; }
-  .mobile_1_row {
-    display: inline-block; }
+    margin-bottom: 0;
+    padding: 0 12px 0 30px; }
   /* faq */
   .faq h1 {
     text-align: center; }
@@ -352,5 +347,41 @@ td {
     text-align: left; }
   td {
     font-size: 14px; } }
+
+@media (max-width: 320px) {
+  figure {
+    height: 0;
+    padding: 0; }
+  .beacons {
+    position: relative;
+    top: 110px;
+    right: 15px; }
+  .dot {
+    display: none; }
+  .complete_mobile {
+    width: 100%;
+    top: 300px;
+    left: 40px; }
+  .mobile_shoe {
+    top: 26px;
+    left: 12px; }
+  .complete_cloud {
+    transform: scale(2.5);
+    top: 570px;
+    left: -180px; }
+  .cloud_shoe {
+    width: 50%;
+    top: 5px;
+    left: 12px; }
+  .desktop_text {
+    width: 60%;
+    float: right; }
+  .mobile_2_row {
+    position: relative;
+    top: 50px;
+    right: 40vw; }
+  .mobile_3_row {
+    position: relative;
+    top: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
