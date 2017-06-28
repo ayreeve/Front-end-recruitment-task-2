@@ -79,40 +79,39 @@ $(document).ready(function () {
     });
 
     /*  CAROUSEL */
-
-    $('.carousel').slick({
+    $slick_slider = $('.carousel');
+    settings = {
         dots: false,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
+        mobileFirst: true,
         touchMove: true,
+        prevArrow: '<button class="slick-prev"><img src="images/buttons/left.png" alt="previous button"><button>',
+        nextArrow: '<button class="slick-next"><img src="images/buttons/right.png" alt="next button"><button>',
         responsive: [
             {
-                breakpoint: 1600,
+                breakpoint: 481,
                 settings: "unslick"
-            },
-            {
-                breakpoint: 1366,
-                settings: "unslick"
-
-            },
-            {
-                breakpoint: 1200,
-                settings: "unslick"
-            },
-            {
-                breakpoint: 768,
-                settings: "unslick"
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
             }
-
         ]
+
+    };
+
+    $slick_slider.slick(settings);
+
+    $(window).on('resize', function () {
+        if ($(window).width() > 480) {
+            if ($slick_slider.hasClass('slick-initialized')) {
+                $slick_slider.slick('unslick');
+            }
+            return
+        }
+
+        if (!$slick_slider.hasClass('slick-initialized')) {
+            return $slick_slider.slick(settings);
+        }
     });
+
 });

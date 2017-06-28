@@ -2807,7 +2807,8 @@
 
         var _ = this;
         _.$slider.trigger('unslick', [_, fromBreakpoint]);
-        _.destroy();
+        //_.destroy();
+        _.unload();
 
     };
 
