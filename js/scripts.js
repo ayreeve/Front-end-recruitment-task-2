@@ -17,12 +17,12 @@ $(document).ready(function () {
 
     TweenMax.to('.dot_2', 1, {
         backgroundImage: "url('images/svg_pictures/filled_dot.svg')",
-        delay: 1.1
+        delay: 1
     });
 
     TweenMax.to('.dot_3', 1, {
         backgroundImage: "url('images/svg_pictures/filled_dot.svg')",
-        delay: 1.4
+        delay: 1.2
     });
 
     /* mobile shoe icon */
@@ -31,51 +31,52 @@ $(document).ready(function () {
         ease: Expo.easeInOut,
         display: "none",
         scale: 1.1,
-        dalay: 1.7
+        dalay: 1.4
     });
 
     TweenMax.to('.mobile_shoe', 0.4, {
         opacity: 1,
         scale: 1,
-        dalay: 2
+        dalay: 1.6
     });
 
     /* dots 4-6 */
 
     TweenMax.to('.dot_4', 1, {
         backgroundImage: "url('images/svg_pictures/filled_dot.svg')",
-        delay: 2.3
+        delay: 1.8
     });
 
     TweenMax.to('.dot_5', 1, {
         backgroundImage: "url('images/svg_pictures/filled_dot.svg')",
-        delay: 2.6
+        delay: 2
     });
 
     TweenMax.to('.dot_6', 1, {
         backgroundImage: "url('images/svg_pictures/filled_dot.svg')",
-        delay: 2.9
+        delay: 2.2
     });
 
     /* shoe on the cloud */
     TweenMax.from('.cloud_shoe', 0.4, {
         opacity: 0,
-        dalay: 3.2
+        scale: 1.4,
+        dalay: 2.4
     });
 
     TweenMax.to('.cloud_shoe', 0.4, {
         opacity: 1,
-        delay: 3.5
+        delay: 2.6
     });
 
-    TweenMax.from('.cloud_shoe', 0.1, {
-        scale: 1.4,
-        delay: 3.7
+    TweenMax.from('.cloud_shoe', 0.3, {
+        scale: 2,
+        delay: 2.8
     });
 
-    TweenMax.to('.cloud_shoe', 0.1, {
+    TweenMax.to('.cloud_shoe', 0.3, {
         scale: 1.1,
-        delay: 3.8
+        delay: 3.6
     });
 
     /*  CAROUSEL */
