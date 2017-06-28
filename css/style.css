@@ -24,7 +24,7 @@ section > .container {
   src: url("../fonts/BrandonText-Medium.woff"); }
 
 h1 {
-  font-size: 34px;
+  font-size: 2.125em;
   font-weight: lighter; }
 
 h2 {
@@ -53,40 +53,6 @@ p {
   display: table;
   clear: both; }
 
-/* offset */
-.col-offset-1 {
-  margin-left: 8.33%; }
-
-.col-offset-2 {
-  margin-left: 16.66%; }
-
-.col-offset-3 {
-  margin-left: 25%; }
-
-.col-offset-4 {
-  margin-left: 33.33%; }
-
-.col-offset-5 {
-  margin-left: 41.66%; }
-
-.col-offset-6 {
-  margin-left: 50%; }
-
-.col-offset-7 {
-  margin-left: 58.33%; }
-
-.col-offset-8 {
-  margin-left: 66.66%; }
-
-.col-offset-9 {
-  margin-left: 75%; }
-
-.col-offset-12 {
-  margin-left: 83.33%; }
-
-.col-offset-11 {
-  margin-left: 91.66%; }
-
 /* LOGO */
 .logo {
   position: absolute;
@@ -113,7 +79,7 @@ figure {
   justify-content: space-between;
   align-items: center; }
 
-.svg_color_mask {
+.animation {
   filter: brightness(0) invert(1); }
 
 /* beacons */
@@ -175,9 +141,12 @@ figure {
   opacity: 0;
   transition: 1s; }
 
+.svg_replacement {
+  display: none; }
+
 /* FAQ */
 .faq h1 {
-  margin-top: 149px; }
+  margin-top: 170px; }
 
 .faq_line {
   margin-top: 26px;
@@ -194,6 +163,7 @@ figure {
   list-style: none;
   font-size: 20px;
   text-align: left;
+  line-height: 30px;
   color: rgba(255, 255, 255, 0.3); }
 
 /* TABLE */
@@ -201,8 +171,8 @@ figure {
   text-align: center; }
 
 .table h1 {
-  margin-top: 144px;
-  margin-bottom: 58px; }
+  margin-top: 140px;
+  margin-bottom: 56px; }
 
 table {
   margin-bottom: 140px;
@@ -214,9 +184,22 @@ td {
   border: 1px solid;
   font-size: 18px; }
 
+/* SCROLLBAR */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent; }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #a7a5a5; }
+
 /* MEDIA QUERIES */
-@media (min-width: 768px) {
-  /* For desktop: */
+@media (min-width: 769px) {
+  /* GRID (for desktop): */
   .col-m-1 {
     width: 8.33%; }
   .col-m-2 {
@@ -240,10 +223,43 @@ td {
   .col-m-11 {
     width: 91.66%; }
   .col-m-12 {
+    width: 100%; }
+  /* offset */
+  .col-offset-1 {
+    margin-left: 8.33%; }
+  .col-offset-2 {
+    margin-left: 16.66%; }
+  .col-offset-3 {
+    margin-left: 25%; }
+  .col-offset-4 {
+    margin-left: 33.33%; }
+  .col-offset-5 {
+    margin-left: 41.66%; }
+  .col-offset-6 {
+    margin-left: 50%; }
+  .col-offset-7 {
+    margin-left: 58.33%; }
+  .col-offset-8 {
+    margin-left: 66.66%; }
+  .col-offset-9 {
+    margin-left: 75%; }
+  .col-offset-12 {
+    margin-left: 83.33%; }
+  .col-offset-11 {
+    margin-left: 91.66%; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .intro p {
+    margin-bottom: 0; }
+  /* animations */
+  .animation .col-offset-2 {
+    margin: 0;
+    padding: 40px; }
+  .animation .col-m-8 {
     width: 100%; } }
 
-@media (max-width: 767px) {
-  /* For tablets & mobiles: */
+@media (max-width: 768px) {
+  /* GRID (for tablets & mobiles): */
   .col-s-1 {
     width: 8.33%; }
   .col-s-2 {
@@ -267,6 +283,68 @@ td {
   .col-s-11 {
     width: 91.66%; }
   .col-s-12 {
-    width: 100%; } }
+    width: 100%; }
+  /* STYLES */
+  .intro p {
+    padding: 0 50px; }
+  .faq h2,
+  .faq ul {
+    text-align: center; } }
+
+@media (max-width: 640px) {
+  /* animations */
+  .animation {
+    display: none; }
+  figure {
+    width: 600px;
+    height: 150px; } }
+
+@media (max-width: 480px) {
+  /* global */
+  section > .container {
+    text-align: left; }
+  p {
+    font-size: 16px;
+    text-align: left; }
+  /*logo */
+  .logo {
+    top: 20px;
+    left: 8px;
+    transform: scale(0.8); }
+  /* header, intro */
+  .intro h1 {
+    margin: 90px 0 13px 0;
+    padding: 0 24px;
+    margin-top: 123px; }
+  .intro p {
+    padding: 0 12px 0 21px;
+    margin-bottom: 76px; }
+  /* faq */
+  .faq h1 {
+    text-align: center; }
+  margin-top: 23px;
+  .faq h2 {
+    margin-bottom: 68px; }
+  .faq ul {
+    font-size: 18px; }
+  /* carousel */
+  .slick-arrow {
+    bottom: 20px;
+    right: 80px; }
+  .slick-next,
+  .slick-prev {
+    width: 50px;
+    right: 100px;
+    top: 400px;
+    transform: scale(1.5); }
+  .slick-prev {
+    left: 100px; }
+  /* table */
+  .table h1 {
+    margin-bottom: 29px;
+    padding: 0 23px;
+    text-align: left; }
+  td {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
