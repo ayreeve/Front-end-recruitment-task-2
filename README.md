@@ -12,4 +12,4 @@ What’s more?
 - GSAP
 - slick
 
-![devices_preview]()
+![devices_preview](https://image.ibb.co/grFxJQ/Estimote.png)
